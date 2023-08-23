@@ -19,3 +19,30 @@ body {
     margin: 0 auto;
     width: 60%;
 }
+
+#game-info {
+    float: left;
+    margin-left: 10em;
+}
+
+#game-area {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#player-board {
+    background-color: black;
+    flex-grow: 4;
+}
+
+#divider-board {
+    flex-grow: 2;
+    background-color: orange;
+}
+
+#computer-board {
+    background-color: black;
+    flex-grow: 4;
+}
