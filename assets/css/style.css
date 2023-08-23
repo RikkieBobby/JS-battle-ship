@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kablammo&family=Orbit&family=Space+Grotesk&display=swap");
+
+
+body {
+    width: 100%;
+    height: 1500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Black Ops One', sans-serif; 
+    position: absolute;
+}
