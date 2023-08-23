@@ -8,4 +8,14 @@ body {
     text-align: center;
     font-family: 'Black Ops One', sans-serif; 
     position: absolute;
+    background: url(../images/battleship.jpg) center center/ cover no-repeat fixed;
+}
+
+#heading {
+    font-size: 3em;
+}
+
+#inscrtuctions {
+    margin: 0 auto;
+    width: 60%;
 }
