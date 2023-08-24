@@ -26,23 +26,69 @@ body {
 }
 
 #game-area {
-    width: 100%;
-    height: 900px;
+    width: 80%;
+    height: 700px;
     display: flex;
     justify-content: space-evenly;
+    margin: 0 auto;
 }
 
 #player-board {
     background-color: black;
-    flex-grow: 4;
+    flex-grow: 3;
 }
 
 #divider-board {
-    flex-grow: 2;
+    flex-grow: 1;
     background-color: orange;
 }
 
 #computer-board {
     background-color: black;
-    flex-grow: 4;
+    flex-grow: 3;
+}
+
+#ships-container {
+    display: block;
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.carrier {
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    margin: 5px;
+}
+
+.battleship {
+    width: 80px;
+    height: 20px;
+    background-color: purple;
+    margin: 5px;
+}
+
+.destroyer {
+    width: 60px;
+    height: 20px;
+    background-color: green;
+    margin: 5px;
+}
+
+.submarine {
+    width: 60px;
+    height: 20px;
+    background-color: yellow;
+    margin: 5px;
+}
+
+.cruiser {
+    width: 40px;
+    height: 20px;
+    background-color: grey;
+    margin: 5px;
 }

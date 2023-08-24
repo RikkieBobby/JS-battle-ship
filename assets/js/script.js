@@ -1,0 +1,4 @@
+function startGame()
+
+function placeShips()
+
