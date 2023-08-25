@@ -3,7 +3,7 @@ const shipsContainer = document.querySelector('#ships-container')
 const flipButton = document.querySelector('#flip-button')
 
 
-
+// Flip the ships
 // Function which runs a if else statement which targets the children of the 'ships-container', 
 // when the flipButton event listener is clicked it calls the flipFunc which rotates the ships 90 degrees and back when clicked again
 let angle = 0 
@@ -16,7 +16,12 @@ function flipFunc() {
     }
         shipOptions.forEach(shipOption => shipOption.style.transform = `rotate(${angle}deg)`)
 }
+flipButton.addEventListener('click', flipFunc)
 
+
+
+// Create the game board
+// Function
 const width = 20
 function createGameBoard(user) {
     const gameBoard = document.createElement('div')
@@ -38,4 +43,3 @@ function createGameBoard(user) {
 createGameBoard('player')
 createGameBoard('computer')
 
-flipButton.addEventListener('click', flipFunc)
